@@ -47,7 +47,7 @@ Add the following content:
 ```nginx
 server {
     listen 80;
-    server_name your-domain.com;
+    server_name https://stn8n.zapto.org/;
 
     location / {
         proxy_pass http://localhost:5678;
