@@ -27,9 +27,9 @@ sudo systemctl enable docker
 sudo docker run -d --restart unless-stopped -it \
 --name n8n \
 -p 5678:5678 \
--e N8N_HOST="your-domain.com" \
--e WEBHOOK_TUNNEL_URL="https://your-domain.com/" \
--e WEBHOOK_URL="https://your-domain.com/" \
+-e N8N_HOST="https://stn8n.zapto.org/" \
+-e WEBHOOK_TUNNEL_URL="https://https://stn8n.zapto.org//" \
+-e WEBHOOK_URL="https://https://stn8n.zapto.org//" \
 -v ~/.n8n:/root/.n8n \
 n8nio/n8n
 ```
